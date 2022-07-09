@@ -41,6 +41,9 @@
                                         <rect key="frame" x="0.0" y="229.5" width="67" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dB3-A8-YxR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -52,6 +55,11 @@
                             <constraint firstItem="Kbo-Da-gpl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E7t-5R-XjE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="5Nt-1B-LlC" id="oud-Ad-Arw"/>
+                        <outlet property="ticketLabel" destination="OqL-y8-sSv" id="a9p-0m-iF2"/>
+                        <outlet property="valueLabel" destination="uod-kR-KWd" id="ue9-ol-RYj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

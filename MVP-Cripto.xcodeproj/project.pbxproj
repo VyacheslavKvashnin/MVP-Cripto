@@ -16,6 +16,7 @@
 		BD27ABEB2879DA25000B297C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEA2879DA25000B297C /* Crypto.swift */; };
 		BD27ABED2879DB83000B297C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEC2879DB83000B297C /* Presenter.swift */; };
 		BD27ABEF2879E0B8000B297C /* ViewInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */; };
+		BD27ABF12879E5B2000B297C /* ViewOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABF02879E5B2000B297C /* ViewOutputDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BD27ABEA2879DA25000B297C /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		BD27ABEC2879DB83000B297C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInputDelegate.swift; sourceTree = "<group>"; };
+		BD27ABF02879E5B2000B297C /* ViewOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutputDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD27ABD62879D873000B297C /* ViewController.swift */,
 				BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */,
+				BD27ABF02879E5B2000B297C /* ViewOutputDelegate.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				BD27ABEF2879E0B8000B297C /* ViewInputDelegate.swift in Sources */,
 				BD27ABEB2879DA25000B297C /* Crypto.swift in Sources */,
+				BD27ABF12879E5B2000B297C /* ViewOutputDelegate.swift in Sources */,
 				BD27ABD72879D873000B297C /* ViewController.swift in Sources */,
 				BD27ABD32879D873000B297C /* AppDelegate.swift in Sources */,
 				BD27ABD52879D873000B297C /* SceneDelegate.swift in Sources */,
