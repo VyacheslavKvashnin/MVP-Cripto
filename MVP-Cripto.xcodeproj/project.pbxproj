@@ -13,6 +13,9 @@
 		BD27ABDA2879D873000B297C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD27ABD82879D873000B297C /* Main.storyboard */; };
 		BD27ABDC2879D875000B297C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD27ABDB2879D875000B297C /* Assets.xcassets */; };
 		BD27ABDF2879D875000B297C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD27ABDD2879D875000B297C /* LaunchScreen.storyboard */; };
+		BD27ABEB2879DA25000B297C /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEA2879DA25000B297C /* Crypto.swift */; };
+		BD27ABED2879DB83000B297C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEC2879DB83000B297C /* Presenter.swift */; };
+		BD27ABEF2879E0B8000B297C /* ViewInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BD27ABDB2879D875000B297C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD27ABDE2879D875000B297C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD27ABE02879D875000B297C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD27ABEA2879DA25000B297C /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		BD27ABEC2879DB83000B297C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInputDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,10 @@
 		BD27ABD12879D873000B297C /* MVP-Cripto */ = {
 			isa = PBXGroup;
 			children = (
+				BD27ABE92879D8EE000B297C /* Presenters */,
+				BD27ABE82879D8DC000B297C /* Views */,
+				BD27ABE72879D8CD000B297C /* Models */,
 				BD27ABE62879D87E000B297C /* App */,
-				BD27ABD62879D873000B297C /* ViewController.swift */,
 				BD27ABD82879D873000B297C /* Main.storyboard */,
 				BD27ABDB2879D875000B297C /* Assets.xcassets */,
 				BD27ABDD2879D875000B297C /* LaunchScreen.storyboard */,
@@ -73,6 +81,31 @@
 				BD27ABD42879D873000B297C /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		BD27ABE72879D8CD000B297C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD27ABEA2879DA25000B297C /* Crypto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD27ABE82879D8DC000B297C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD27ABD62879D873000B297C /* ViewController.swift */,
+				BD27ABEE2879E0B8000B297C /* ViewInputDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD27ABE92879D8EE000B297C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				BD27ABEC2879DB83000B297C /* Presenter.swift */,
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD27ABEF2879E0B8000B297C /* ViewInputDelegate.swift in Sources */,
+				BD27ABEB2879DA25000B297C /* Crypto.swift in Sources */,
 				BD27ABD72879D873000B297C /* ViewController.swift in Sources */,
 				BD27ABD32879D873000B297C /* AppDelegate.swift in Sources */,
 				BD27ABD52879D873000B297C /* SceneDelegate.swift in Sources */,
+				BD27ABED2879DB83000B297C /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

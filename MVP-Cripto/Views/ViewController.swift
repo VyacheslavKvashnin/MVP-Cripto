@@ -13,7 +13,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
+extension ViewController: ViewInputDelegate {
+    func setupInitialState() {
+        
+    }
+    
+    func setupData(with testData: [Crypto]) {
+        
+    }
+    
+    func displayData(i: Int) {
+        
+    }
+}
