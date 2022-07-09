@@ -56,8 +56,7 @@
 		BD27ABD12879D873000B297C /* MVP-Cripto */ = {
 			isa = PBXGroup;
 			children = (
-				BD27ABD22879D873000B297C /* AppDelegate.swift */,
-				BD27ABD42879D873000B297C /* SceneDelegate.swift */,
+				BD27ABE62879D87E000B297C /* App */,
 				BD27ABD62879D873000B297C /* ViewController.swift */,
 				BD27ABD82879D873000B297C /* Main.storyboard */,
 				BD27ABDB2879D875000B297C /* Assets.xcassets */,
@@ -65,6 +64,15 @@
 				BD27ABE02879D875000B297C /* Info.plist */,
 			);
 			path = "MVP-Cripto";
+			sourceTree = "<group>";
+		};
+		BD27ABE62879D87E000B297C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD27ABD22879D873000B297C /* AppDelegate.swift */,
+				BD27ABD42879D873000B297C /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
